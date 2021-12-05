@@ -7,4 +7,5 @@ function showSessionExpire(){
 }
 console.log("Activity-A: triggerring activity-B at "+showtime())
 setTimeout(showSessionExpire,5000)
+
 console.log("Activity-A triggerring activity-B at "+showtime()+"will execute after 5 second")
